@@ -36,4 +36,11 @@ public class ProductCategory {
     /**修改时间 */
     private Date updateTime;
 
+    public ProductCategory(String categoryName, int categoryType) {
+        this.categoryName = categoryName;
+        this.categoryType = categoryType;
+    }
+
+    public ProductCategory() {
+    }
 }
